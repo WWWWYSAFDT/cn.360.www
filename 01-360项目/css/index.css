@@ -1,15 +1,345 @@
 /* 顶部搜索框 */
-.torbor{
-    height: 100px;
+.torbor {
+    height: 117px;
+    margin-bottom: 17px;
 }
 
-.topbor-logo{
+.topbor-logo {
     float: left;
     width: 135px;
     height: 44px;
     padding: 32px 24px 0 278px;
 }
 
-.topbor-search{
-    
+.topbor-search {
+    float: left;
+    width: 526px;
+    margin-top: 34px;
 }
+
+.topbor-search input {
+    float: left;
+    width: 310px;
+    height: 16px;
+    padding: 10px 16px 12px 78px;
+
+}
+
+.topbor-search span {
+    position: relative;
+    top: 14px;
+    left: -385px;
+    width: 40px;
+    height: 13px;
+    color: #999;
+    line-height: 13px;
+    font-size: 13px;
+}
+
+.topbor-search button {
+    /* float: left; */
+    position: relative;
+    top: -15px;
+    width: 118px;
+    height: 42px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #19b955;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+.topbor-tab {
+    float: right;
+    width: 210px;
+    padding-top: 45px;
+    font-size: 13px;
+
+}
+
+.topbor-tab a,
+i {
+    color: #999999;
+    margin-right: 6px;
+}
+
+.topbor-tab i {
+    margin: 0 2px;
+}
+
+.topbor-tab a:nth-child(2) {
+    margin-right: 24px;
+}
+
+.topbor-tab a:first-child {
+    color: #19b955;
+}
+
+.topbor-tab a:hover {
+    color: #19b955;
+}
+
+.topbor-botton {
+    float: left;
+    width: 526px;
+    height: 20px;
+    margin: 0 0 0 437px;
+}
+
+.topbor-botton a {
+    float: left;
+    color: #999999;
+    font-size: 13px;
+    margin-right: 8px;
+    line-height: 20px;
+}
+
+/* 软件框 */
+.software {
+    position: relative;
+    height: 61px;
+    line-height: 61px;
+    background: #f5f5f5;
+}
+
+.software .option {
+    float: left;
+    width: 1340px;
+    margin: 0 48px;
+    font-size: 16px;
+}
+
+.software .option li {
+    float: left;
+    padding-left: 4px;
+    padding-right: 36px;
+    color: #252525;
+}
+
+.software .option a {
+    float: left;
+}
+
+.software .option i {
+    color: #252525;
+}
+
+.picture {
+    width: 100%;
+    height: 561px;
+}
+
+.picture .picture-i {
+    display: block;
+}
+
+/* 安全卫士 */
+
+.kavass {
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 109px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.kavass .safe {
+    position: relative;
+    height: 100%;
+    float: left;
+    width: 408px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background: url(../images/container.png) no-repeat right 22px;
+}
+
+
+.kavass .safe-xian {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: 0px;
+    text-decoration: none;
+    background: url(../images/container01.png) 50% 100% no-repeat;
+}
+
+.kavass .safe-icon {
+    position: absolute;
+    top: 26px;
+    left: 75px;
+}
+
+.kavass .safe-wz {
+    display: inline-block;
+    padding: 30px 0 0 155px;
+    line-height: 28px;
+}
+
+.kavass .safe-wz h2 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kavass .safe-wz p{
+    font-size: 13px;
+    color: #999;
+}
+
+.kavass .safe-wz-er{
+    display: inline-block;
+    padding: 30px 0 0 230px;
+    line-height: 28px;
+}
+
+.kavass .safe-wz-er h2 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.kavass .safe-wz-er p{
+    font-size: 13px;
+    color: #999;
+}
+
+/* 最新动态 */
+.trends{
+    width: 100%;
+    height: 295px;
+}
+
+.trends-left{
+    float: left;
+    width: 898px;
+    height: 295px;
+    margin-bottom: 5px;
+}
+
+.trends-top{
+    position: relative;
+    width: 100%;
+    height: 27px;
+}
+
+.title {
+    float: left;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 10px;
+    background: url(../images/trends-top.png) no-repeat left 4px;
+}
+.trends-top .title a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #19b955;
+}
+
+.trends-top a{
+    float: right;
+    line-height: 27px;
+    color: #999999;
+    font-size: 14px;
+}
+
+.trends-circle{
+    width: 930px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.trends-circle li{
+    float: left;
+    width: 290px;
+    margin: 0 11px 0 0;
+    border: 1px solid #e5e5e5;
+    height: 207px;
+}
+
+.trends-circle li .trends-pic{
+    position: relative;
+    width: 290px;
+    height: 162px;
+    margin-bottom: 12px;
+}
+
+.trends-circle li .trends-script{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.trends-circle li .trends-script a{
+    color: #333;
+}
+
+/* 快速下载  */
+.trends-reight{
+    float: right;
+    width: 326px;
+    padding-left: 14px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.trends-reight .software{
+    width: 325px;
+    height: 208px;
+    background-color: #fff;
+    border: 1px solid #e9eaeb;
+}
+
+.trends-reight .software .software-list{
+    width: 327px;
+}
+
+.software .software-list li{
+    position: relative;
+    float: left;
+    width: 108px;
+    height: 104px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.software .software-list li .software-list-size{
+    position: absolute;
+    height: 90px;
+    padding-top: 14px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+.software .software-list li .software-list-size p:first-child{
+    width: 108px;
+    height: 29px;
+}
+.software-list li .software-list-size  img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.software-list li .software-list-size .software-list-aq{
+    color: #333;
+    font-size: 14px;
+}
+
+.software-list li .software-list-size .software-list-xz{
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    padding: 1px 8px;
+}
+
+
+
+
