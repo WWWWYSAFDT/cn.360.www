@@ -622,15 +622,39 @@
 }
 
 /* 科技创新 */
+.tech-box {
+    margin-top: 34px;
+}
 
+.trends-ii{
+    float: left;
+}
+.tech-box .tech-nav li.active {
+    color: #00AE64;
+    background: #fff;
+    border-left: 2px solid #00AE64;
+}
 
+.tech-box .tech-nav li {
+    line-height: 80px;
+    font-size: 16px;
+    color: #1F252E;
+    background: #eee;
+    text-align: center;
+    width: 164px;
+    position: relative;
+    box-sizing: border-box;
+}
 
+.tech-box .tech-content>ul {
+    height: 1600px;
+}
 
-
-
-
-
-
+.tech-box .tech-content>ul>li.tech {
+    height: 320px;
+    padding: 30px 40px 36px 24px;
+    box-sizing: border-box;
+}
 
 
 
