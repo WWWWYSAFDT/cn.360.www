@@ -1,0 +1,653 @@
+.index-top {
+    width: 100%;
+    position: relative;
+    min-width: 1160px;
+    margin: 0 auto;
+}
+
+.index-banner {
+    width: 100%;
+    height: 560px;
+    background: url(../images/finance-banner1.jpg) center no-repeat;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+    height: 560px;
+}
+
+.index-top .swiper-wrapper {
+    position: relative;
+    width: 580px;
+    height: 560px;
+    transform: translate3d(-2320px, 0px, 0px);
+    transition-duration: 0.5s;
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    float: left;
+    box-sizing: content-box;
+}
+
+
+.swiper-slide .banner3 {
+    background: url(../images/finance-banner1.jpg);
+}
+
+.swiper-slide .banner3 {
+    background: url(../images/finance-banner2.jpg);
+}
+
+.swiper-slide .banner3 {
+    background: url(../images/finance-banner3.jpg);
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 28px;
+    z-index: 1;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.swiper-pagination .switch {
+    display: block;
+    opacity: .48;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+    margin: 0;
+    transition: .3s;
+    float: left;
+    margin: 0 4px;
+    position: relative;
+}
+
+.swiper-pagination .switch:hover {
+    opacity: .78;
+}
+
+.swiper-pagination .switch::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 26px;
+    top: -12px;
+    left: 0;
+}
+
+/* 顶部文字 */
+.top-box {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, #3333337d, transparent);
+}
+
+.top-box .nav-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-box .nav-box .logo {
+    float: left;
+    width: 142px;
+    padding-top: 15px;
+}
+
+.top-box .nav-box .logo img {
+    width: 100%;
+}
+
+.top-box .nav-box .finance {
+    float: right;
+    width: 684px;
+    padding-top: 15px;
+}
+
+.top-box .nav-box .nav-list {
+    float: left;
+    position: relative;
+    height: 70px;
+}
+
+.top-box .nav-box .active {
+    color: #4bcf2f;
+    border-bottom: 2px solid #4bcf2f;
+}
+
+.top-box .nav-box .nav>li:hover>a {
+    color: #4BCF2F;
+}
+
+
+.top-box .nav-box .nav-list>a {
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding-bottom: 7px;
+}
+
+.finance>li:hover .nav-second {
+    display: block;
+}
+
+.nav-second {
+    display: none;
+    position: absolute;
+    top: 36px;
+    left: 50%;
+    width: 120px;
+    padding: 10px 0;
+    border-top: 4px solid #fff;
+    background-color: #fff;
+    color: #444;
+    border-radius: 2px;
+    transform: translateX(-50%);
+    transition: 1000ms;
+
+}
+
+.top-box .nav-second li {
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.top-box .top-link {
+    position: absolute;
+    padding: 0 24px 1px 8px;
+    top: 11px;
+    right: 24px;
+    margin-left: -480px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.top-box .top-link a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.top-box .top-link .arrow {
+    position: relative;
+}
+
+.arrow:before {
+    content: '';
+    position: absolute;
+    width: 82px;
+    height: 50px;
+    left: -22px;
+}
+
+
+.arrow:active {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: transparent;
+    border-top: 1px solid currentColor;
+    border-left: 1px solid currentColor;
+    top: 50%;
+    right: -16px;
+    margin-top: -5px;
+}
+
+.top-box .top-link .lang-list {
+    position: absolute;
+    top: 38px;
+    width: 70px;
+}
+
+.top-box .top-link .iconfont-arrow-down {
+    position: absolute;
+    top: -3px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+
+.top-box .nav-second:before {
+    background-color: #fff;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: -7px;
+    left: 47%;
+    z-index: 9;
+    content: "";
+    border: 0;
+}
+
+.top-box .nav-second a,
+.nav .nav-second a:hover {
+    color: #1F252E;
+}
+
+.top-box .nav-second li {
+    line-height: 36px;
+    text-align: center;
+}
+
+.top-box .top-link:hover .lang-list {
+    display: block;
+}
+
+/* 中间内容 */
+.index-among {
+    margin: 0 auto;
+}
+
+/* 社会责任 */
+.abstractt {
+    background: #fff;
+}
+
+.con-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+    padding-bottom: 50px;
+}
+
+.con-box .title {
+    font-size: 30px;
+    color: #1F252E;
+    text-align: center;
+    position: relative;
+    line-height: 42px;
+    padding: 45px 0 12px;
+}
+
+.con-box .title.cube:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: rgba(25, 185, 85, 0.43);
+    display: inline-block;
+    right: -14px;
+    position: relative;
+    bottom: -4px;
+    font-size: 0;
+}
+
+.con-box .title-desc {
+    width: 1100px;
+    margin: 0 auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #414C58;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.con-box .num-stat {
+    margin-top: 70px;
+}
+
+.con-box .num-stat li {
+    position: relative;
+    float: left;
+    width: 25%;
+    font-size: 30px;
+    color: #00AE64;
+    text-align: center;
+}
+
+.con-box .num-stat span {
+    font-size: 48px;
+    line-height: 74px;
+}
+
+.con-box .num-stat p {
+    line-height: 38px;
+    font-size: 14px;
+    color: #1F252E;
+}
+
+.con-box .con-list {
+    width: 100%;
+    padding: 50px 2px 32px;
+    box-sizing: border-box;
+}
+
+.con-box .con-list ul .social.social1 {
+    background: url(../images/finance-social1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.con-box .con-list ul .social.social2 {
+    background: url(../images/finance-social2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.con-box .con-list ul .social.social3 {
+    background: url(../images/finance-social3.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.con-box .con-list ul .social.social4 {
+    background: url(../images/finance-social4.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.con-box .con-list ul .social {
+    position: relative;
+    float: left;
+    text-align: center;
+    /* margin: 78px 10.5px 0; */
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    height: 436px;
+    top: 0;
+    transition: 300ms;
+}
+
+.con-box .con-list ul li:not(:last-child) {
+    margin-right: 12px;
+}
+
+.con-box .con-list ul .social p {
+    font-size: 14px;
+    width: 100%;
+}
+
+.con-box .con-list ul .social p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.social .shade {
+    text-align: left;
+    background: linear-gradient(to bottom, transparent, #333);
+    color: #fff;
+    padding: 14px 28px 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.con-box .con-list ul .social h3 {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.con-box .con-list ul .social p {
+    transition: 1s;
+}
+
+.con-box .con-list ul .social.active:hover {
+    box-shadow: 0 1px 2px #2525316b;
+    top: -10px;
+    transition: 300ms;
+}
+
+
+.con-box .con-list ul li a {
+    width: 90px;
+    height: 23px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    line-height: 23px;
+    color: #fff;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    transition: all .2s ease-in-out;
+}
+
+/* 新闻动态 */
+.dyestuff {
+    background: #f8f8f9;
+}
+
+.index-news-box {
+    padding-bottom: 50px;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+}
+
+.con-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2px;
+}
+
+.con-box {
+    padding-bottom: 50px;
+}
+
+/* 左边 */
+.index-news-box .news-video {
+    display: inline-block;
+    width: 374px;
+}
+
+.trends-ii {
+    float: left;
+}
+
+.index-news-box .news-video .video-box {
+    position: relative;
+    width: 375px;
+    height: 250px;
+    margin-top: 56px;
+}
+
+#video {
+    width: 375px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.index-news-box .news-video .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin: -24px 0 0 -35px;
+    background: url(../images/finance-play_icon.png) no-repeat top center;
+    background-size: contain;
+}
+
+.index-news-box .news-video p {
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 14px;
+    color: #41474E;
+}
+
+/* 右边 */
+.trends-ii {
+    float: right;
+}
+
+.news-list-box {
+    width: 720px;
+    height: 467px;
+}
+
+.index-con-box .news-list-box {
+    padding: 20px 0 0;
+}
+
+.news-list-box .news-list {
+    border-bottom: 1px solid #eee;
+    padding: 29px 0;
+}
+
+.news-list-box .news-list:hover {
+    box-shadow: 0px 0px 20px 0px rgba(16, 19, 35, 0.1);
+    transition: 300ms;
+}
+
+.news-list-box .news-list {
+    color: #333333;
+    position: relative;
+    transition: 300ms;
+}
+
+.left {
+    display: inline-block;
+}
+
+.news-list-box .news-list .left {
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #1e1b20;
+}
+
+.news-list-box .news-list .left span {
+    display: block;
+    font-size: 48px;
+    color: #00ae64;
+    margin: 0 auto;
+    line-height: 48px;
+}
+
+.news-list-box .news-list .right {
+    float: left;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.news-list-box .news-list .right h3 {
+    font-size: 18px;
+    color: #1e1b20;
+    font-weight: 400;
+    padding-bottom: 6px;
+}
+
+.news-list-box .news-list .right p {
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+.index-con-box .con-box p.txt {
+    color: #c3c4c5;
+    font-size: 13px;
+    padding-top: 10px;
+    text-indent: 120px;
+    line-height: 30px;
+}
+
+.index-news-box p.txt {
+    padding: 20px 0;
+}
+
+.index-news-box p.txt a {
+    font-size: 16px;
+    color: #00AE64;
+}
+
+/* 核心优势 */
+
+.con-box .con-list.advantage-box {
+    padding: 86px 104px 32px;
+}
+
+.con-box .con-list {
+    width: 100%;
+    height: 317px;
+    padding: 50px 2px 32px;
+    box-sizing: border-box;
+}
+
+.con-box .advantage-box .advantage {
+    width: 176px;
+    float: left;
+    text-align: center;
+}
+
+.con-box .con-list ul .advantage:not(:last-child) {
+    margin-right: 96px;
+}
+
+.advantage em {
+    display: block;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 27px;
+}
+
+.advantage-box .advantage em img {
+    width: 100%;
+}
+
+.advantage-box .advantage h3 {
+    font-size: 24px;
+    color: rgba(31, 37, 46, 1);
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.advantage-box .advantage p {
+    font-size: 14px;
+    line-height: 2;
+    color: #41474E;
+}
+
+/* 科技创新 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

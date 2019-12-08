@@ -1,0 +1,303 @@
+/*顶部 */
+.box{
+    width: 1238px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.top {
+    height: 36px;
+    font-size: 14px;
+    background-color: #f5f5f5
+}
+
+.top .content-left {
+    float: left;
+    margin-top: 10px;
+}
+
+.top .content-left a {
+    float: left;
+    height: 14px;
+
+    margin-right: 25px;
+    line-height: 14px;
+    color: #999;
+}
+
+.top .content-left .version {
+    color: #23ac38;
+    height: 16px;
+}
+
+.content-right {
+    float: right;
+}
+
+.content-right a {
+    float: right;
+    height: 14px;
+    margin-top: 10px;
+    margin-left: 25px;
+    line-height: 14px;
+    color: #999;
+}
+
+/* 搜索框  */
+.Search {
+    position: relative;
+    z-index: 10;
+    height: 120px;
+}
+
+.Search.header {
+    position: relative;
+    z-index: 11;
+    height: 120px;
+}
+
+ #logo{
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.Search .header #logo img {
+    width: 180px;
+    height: 64px;
+    vertical-align: middle;
+}
+
+.Search .header .nav {
+    position: absolute;
+    left: 195px;
+    top: 30px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 17px;
+}
+
+.Search .header .item {
+    float: left;
+    padding: 0 15px;
+}
+
+.Search .search-block{
+    position: absolute;
+    right: 0;
+    top: 38px;
+    height: 40px;
+    width: 306px;
+    border: 2px solid #23ac38;
+}
+
+.Search .search-block .input-out{
+    float: left;
+    width: 196px;
+    height: 28px;
+    padding: 6px;
+    line-height: 28px;
+    background-image: url(../images/software-input-ou01.png);
+    background-repeat: no-repeat;
+    background-position: 170px 9px;
+}
+
+.Search .search-block .texts{
+    width: 196px; 
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    border: 0;
+    background: 0;
+    vertical-align: middle;
+}
+
+.Search .search-block .fastener{
+    float: right;
+    box-sizing: content-box;
+    width: 96px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    background-color: #23ac38;
+}
+
+/* 360软件 */
+.box{
+    width: 1238px;
+    height: 1120px;
+    margin: 0 auto;
+}
+
+/* 360电脑软件 */
+.heading{
+    font-size: 22px;
+    margin-left: 55px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    color: #23ac38;
+}
+
+ .case{
+    list-style: none;
+    height: 356px;
+}
+.list{
+    float: left;
+    width: 201px;
+    color: #707070;
+    margin-left: 36px;
+    line-height: 36px;
+}
+
+.case .list .title{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+    background: #f7f7f7;
+    width: 220px;
+    text-indent: 15px;
+}
+
+.case .list .substance{
+    width: 182px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.list .substance a{
+    display: inline-block;
+    width: auto;
+}
+
+.list .substance a img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.list .substance .download{
+    border: 1px solid #e0e0e0;
+    margin-top: 8px;
+    height: 24px;
+    line-height: 24px;
+    color: #707070;
+    background-color: #f7f7f7;
+    padding: 0 8px;
+    float: right;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+/* 底部 */
+.bottom-first{
+    height: 296px;
+    padding: 40px 0 50px;
+    background: #f6f6f6;
+}
+
+.bottom-first .bottom-box{
+    float: left;
+    margin-left: -20px;
+    
+}
+
+.bottom-first  .bottom-box .nav{
+    float: left;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-left: 1px solid #e5e5e5;
+    line-height: 2;
+}
+.bottom-first  .bottom-box .nav:first-child{
+    border-left: none;
+}
+
+.bottom-first  .bottom-box .cate{
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.bottom-first  .bottom-box dd{
+    font-size: 14px;
+}
+
+.Sweep{
+    position: relative;
+    float: right;
+    width: 270px;
+    padding-top: 10px;
+}
+
+.Sweep .Sweep-wz{
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.Sweep .twitter{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding-left: 30px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #666;
+    background-image: url(../images/twitter01.png);
+    background-repeat: no-repeat;
+    background-position: -150px -484px;
+}
+
+.Sweep .two-dimension{
+    margin-left: -30px;
+}
+
+.Sweep .two-dimension .wx{
+    float: left;
+    width: 120px;
+    margin-left: 30px;
+}
+
+.Sweep .two-dimension .pc{
+    width: 120px;
+    height: 120px;
+}
+.Sweep .two-dimension .text{
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+}
+
+#bottom-dier{
+    padding: 40px 0;
+    color: #999999;
+    text-align: center;
+    line-height: 2;
+}
+
+#bottom-dier .stys{
+    color: #999;
+}
+
+
+#bottom-dier .stys img{
+    vertical-align: middle;
+}
+
+
+
+
+

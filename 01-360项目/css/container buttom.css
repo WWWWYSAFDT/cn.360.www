@@ -1,0 +1,231 @@
+/* 顶部 */
+body{
+    background: #fff;
+    font-size: 12px;
+    font-family: arial;
+    min-height: 512px;
+    min-width: 1000px;
+    position: relative;
+}
+.case {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    
+}
+
+.headpiece {
+    position: relative;
+    height: 20px;
+    min-width: 990px;
+    padding: 10px 0 7px;
+}
+
+.headpiece .headpiece-left {
+    position: relative;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 auto 10px;
+}
+
+.headpiece .skin {
+    color: #666;
+}
+
+.headpiece .skin a {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.headpiece .skin a .suffix {
+    position: absolute;
+    right: -13px;
+    top: 6px;
+    width: 10px;
+    height: 6px;
+    vertical-align: middle;
+    background: url(../images/suffix01.png) no-repeat -50px -290px;
+}
+
+#headpiece-right {
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+#headpiece-right li {
+    float: left;
+    font-size: 13px;
+    height: 16px;
+    padding: 0 10px;
+}
+
+#headpiece-right li a {
+    display: inline-block;
+    height: 14px;
+    line-height: 18px;
+}
+
+.Weather {
+    position: relative;
+    float: right;
+    font-size: 13px;
+    padding: 0;
+    z-index: 888;
+}
+
+.Weather .Weather-box {
+    line-height: 18px;
+    overflow: hidden;
+    padding-right: 6px;
+    text-decoration: none;
+}
+
+.Weather .Weather-box a {
+    padding: 0 5px;
+}
+
+.Weather .Weather-box .pm {
+    color: #ee001c;
+}
+
+.Weather .Weather-box .temperature {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 10px;
+}
+
+/* 中间部分 */
+.main {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+
+#main-logo {
+    margin: 55px auto 45px;
+}
+
+#main-logo .skin-logo {
+    position: relative;
+    display: block;
+    width: 265px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url(../images/skin-logo.svg);
+}
+
+.main .Search {
+    position: relative;
+    width: 640px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .Search .fixed {
+    display: block;
+    position: relative;
+
+}
+
+.main .Search .fixed-align {
+    position: relative;
+    width: 519px;
+    height: 34px;
+    padding: 5px 10px;
+    vertical-align: top;
+    border: 1px solid #bbb;
+}
+
+
+.main .Search .fixed-align input {
+    background: rgba(0, 0, 0, .001);
+    border: none;
+    color: #333;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    left: 10px;
+    line-height: 30px;
+    margin-top: 3px;
+    top: 5px;
+    width: 519px;
+}
+
+.main .Search .fastener {
+    position: absolute;
+    float: right;
+    width: 100px;
+    height: 46px;
+    vertical-align: top;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    top: 0;
+    left: 540px;
+    background-color: #19b955;
+}
+/* 底部 */
+.basee{
+    bottom:-410px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    line-height: 24px;
+    min-width: 700px;
+    text-align: center;
+    padding: 6px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
