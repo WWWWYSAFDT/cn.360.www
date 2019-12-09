@@ -444,12 +444,9 @@
 
 /* 左边 */
 .index-news-box .news-video {
-    display: inline-block;
-    width: 374px;
-}
-
-.trends-ii {
+    /* display: inline-block; */
     float: left;
+    width: 374px;
 }
 
 .index-news-box .news-video .video-box {
@@ -489,6 +486,9 @@
     float: right;
 }
 
+.news-list{
+    
+}
 .news-list-box {
     width: 720px;
     height: 467px;
@@ -626,9 +626,10 @@
     margin-top: 34px;
 }
 
-.trends-ii{
+.trends-ii {
     float: left;
 }
+
 .tech-box .tech-nav li.active {
     color: #00AE64;
     background: #fff;
@@ -650,13 +651,245 @@
     height: 1600px;
 }
 
+.tech-box .tech-content {
+    overflow: hidden;
+    width: 1036px;
+    height: 320px;
+    float: left;
+}
+
 .tech-box .tech-content>ul>li.tech {
     height: 320px;
     padding: 30px 40px 36px 24px;
     box-sizing: border-box;
 }
 
+.tech .tech-img {
+    width: 342px;
+    height: 255px;
+    margin-right: 62px;
+}
 
+.tech .tech-img img {
+    width: 100%;
+    display: block;
+}
+
+.tech .tech-info {
+    position: relative;
+    max-width: 568px;
+    height: 255px;
+    color: #666;
+}
+
+.tech .tech-info .tech-title {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: normal;
+    margin: 8px 0 16px;
+    color: #41474E;
+}
+
+.tech .tech-info .tech-desc {
+    line-height: 22px;
+}
+
+.tech .relate-product {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+}
+
+.tech .relate-product>span {
+    color: #00AE64;
+}
+
+.tech .relate-product ul {
+    margin-top: 12px;
+}
+
+.tech .relate-product ul li {
+    float: left;
+    margin-right: 24px;
+}
+
+.tech .relate-product ul li img {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    float: left;
+}
+
+.tech .relate-product ul li p {
+    float: left;
+    line-height: 32px;
+}
+
+/* 集体荣誉  */
+.honor-box {
+    padding: 40px 0 32px;
+}
+
+
+.honor-box ul li {
+    float: left;
+}
+
+.honor-box ul li:not(:last-child) {
+    margin-right: 24px;
+}
+
+.honor-box ul li img {
+    width: 282px;
+    height: 345px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.honor-box ul li p {
+    line-height: 52px;
+    color: #333333;
+    text-align: center;
+}
+
+
+.tc {
+    text-align: center;
+}
+
+.txt-a a {
+    font-size: 16px;
+    color: #00AE64;
+}
+
+/* 合作伙伴 */
+.line-bg {
+    background: url(../images/line_bg.png) center repeat-x #F8F8F9;
+    background-size: 100% 100%;
+}
+
+.index-con-box .con-box .partner-box {
+    overflow: hidden;
+    padding-bottom: 60px;
+    padding-top: 36px;
+}
+
+.index-con-box .con-box .con-list {
+    width: 100%;
+    padding: 50px 2px 32px;
+    box-sizing: border-box;
+}
+
+.partner-box ul {
+    width: 4800px;
+    position: relative;
+    transition: 300ms;
+}
+
+.partner-box #lunbo li {
+    margin-right: 0;
+}
+
+.index-con-box .con-box .con-list ul li:not(:last-child) {
+    margin-right: 12px;
+}
+
+.partner-box li img {
+    width: 1200px;
+}
+
+.dots {
+    width: 54px;
+    margin: 42px auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+.dots .dot.active {
+    background: #1bb855;
+    border-color: #1bb855;
+}
+.dots .dot {
+    float: left;
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+   border-radius: 50%;
+    border: 1px solid #eee; 
+}
+
+/* 底部导航 */
+
+.foot-box{
+    width: 100%;
+    background: #272d3b;
+    background: url(../images/finance-bottom_bg.jpg) center no-repeat;
+    padding: 24px 0 20px;
+    /* min-width: 1160px; */
+    margin: 0 auto;
+}
+
+.foot-nav-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-nav-box .logo {
+    float: left;
+    padding-top: 20px;
+    width: 208px;
+}
+
+.foot-nav-box .logo img {
+    width: 90%;
+}
+
+.foot-nav-box .foot-nav{
+    float: right;
+}
+
+.foot-nav-box .foot-nav ul li {
+    float: left;
+}
+
+.foot-nav-box .foot-nav ul li.li1 {
+    width: 140px;
+}
+
+.foot-nav-box .foot-nav ul li span {
+    display: block;
+    padding-bottom: 16px;
+}
+
+.foot-nav-box .foot-nav ul li span a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.foot-nav-box .foot-nav ul li a {
+    display: block;
+    color: silver;
+    font-size: 13px;
+    line-height: 35px;
+}
+
+.foot-nav-box .foot-nav ul li.li3 {
+    width: 260px;
+}
+
+.foot-box .foot-txt {
+    font-size: 14px;
+    color: #9d9d9d;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.foot-box .foot-txt a {
+    color: #9d9d9d;
+}
 
 
 

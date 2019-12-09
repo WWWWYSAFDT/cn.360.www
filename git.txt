@@ -1,0 +1,17 @@
+ssh密匙	ssh-keygen -t rsa -C ""
+设置用户名	git config --global user.name "用户名"
+设置用户邮箱	git config --global user.email "邮箱"
+克隆文件		git clone
+添加：第一次提交
+
+1.第一个xxx文件
+git无法追踪到空白文件夹，文件夹中添加.gitkeep可追踪
+创建文件		touch
+创建文件夹	mkdir
+删除文件或文件夹	rm -rf
+查看文件状态	git status
+提交至暂存区	git add xxx文件
+		git add .--->全部提交
+提交至本地仓库	git commit-m"自编"
+提交至远程仓库	git push
+创建自己的博客	.github.io
