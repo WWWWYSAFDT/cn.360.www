@@ -1,0 +1,179 @@
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #0b6ac9;
+}
+
+/* 顶部 */
+.coping {
+    background: url(../images/safe-hdbg.png);
+}
+
+.top {
+    width: 950px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.top img {
+    float: left;
+}
+
+.nav {
+    float: left;
+    padding-left: 25px;
+}
+
+.nav li {
+    float: left;
+    width: 62px;
+    height: 24px;
+    margin: 15px 10px 0;
+}
+
+.nav li a {
+    display: block;
+    width: 62px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.nav li:nth-child(1) a {
+    color: #fff;
+    font-size: 700;
+    background: url(../images/safe-tabbg.png);
+}
+
+.dl {
+    float: right;
+    width: 168px;
+    text-align: right;
+    margin-top: 20px;
+    color: #999;
+}
+
+.dl i {
+    padding: 1px;
+}
+
+
+.chart {
+    width: 100%;
+    height: 367px;
+    background: url(../images/safe-fbg.jpg);
+}
+
+.chart a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/* 内容 */
+.substance {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* 指示导航图 */
+.denote {
+    width: 100%;
+    padding-top: 16px;
+}
+
+
+/* 其他内容 */
+
+.substance ul {
+    padding-top: 28px;
+}
+
+.substance ul li {
+    float: left;
+    width: 295px;
+    margin-right: 20px;
+}
+
+.tu {
+    float: left;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.wz {
+    color: #999;
+    line-height: 1.5;
+}
+
+.wz h3 {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wz p {
+    line-height: 1.5;
+}
+
+.lt2 img {
+    margin-left: -122px;
+}
+
+.lt3 img {
+    margin-left: -242px;
+}
+
+.media {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.tub{
+    float: left;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.media .wz{
+    width: 950px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.media p{
+    width: 100%;
+    line-height: 1.5;
+}
+/* 底部导航 */
+#bottom-dier {
+    width: 100%;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+    color: #999999;
+    line-height: 2;
+    background: url(../images/safe-ft-bg.png) top center no-repeat;
+}
+
+#bottom-dier .stys {
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+

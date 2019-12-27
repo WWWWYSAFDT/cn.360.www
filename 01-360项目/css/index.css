@@ -127,9 +127,11 @@ i {
 .software .option i {
     color: #252525;
 }
-.software .option img{
+
+.software .option img {
     position: absolute;
 }
+
 .picture {
     width: 100%;
     height: 561px;
@@ -138,6 +140,75 @@ i {
 .picture .picture-i {
     display: block;
 }
+
+/* 下拉框 */
+#nav-block {
+    position: absolute;
+    top: 61px;
+    z-index: 10;
+    width: 100%;
+    background: #fff;
+}
+
+#subnav {
+    /* display: none; */
+    width: 100%;
+    height: 360px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-top: 0;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+}
+
+#subnav .item {
+    width: 1240px;
+    margin: 0 auto;
+    display: none;
+}
+#subnav .item {
+    /* display: inline; */
+    float: left;
+    width: 190px;
+    height: 122px;
+    margin-left: 56px;
+    line-height: 48px;
+}
+
+#subnav .item .title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+#subnav .item .substance{
+    line-height: 40px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 安全卫士 */
 
@@ -536,6 +607,7 @@ i {
 #right-one {
     background-position-y: -129px;
 }
+
 #right-two {
     background-position-y: -177px;
 }
@@ -563,36 +635,36 @@ i {
 
 
 /* 360会员商城 */
-.casket-right{
+.casket-right {
     float: right;
     width: 608px;
 }
 
-.member{
+.member {
     display: block;
     height: 736px;
     border: 1px solid #e5e5e5;
 }
 
-.member .member-slide{
+.member .member-slide {
     height: 281px;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.member .member-slide-shift{
+.member .member-slide-shift {
     position: relative;
     width: 606px;
     height: 281px;
 }
 
-.member .member-slide-shift .tp img{
+.member .member-slide-shift .tp img {
     float: left;
     width: 606px;
     height: 281px;
-    text-align: center; 
+    text-align: center;
 }
 
-.member .member-slide-shift .drop{
+.member .member-slide-shift .drop {
     position: absolute;
     bottom: 25px;
     left: 50%;
@@ -601,7 +673,7 @@ i {
     margin-left: -48px;
 }
 
-.member .member-slide-shift .drop a{
+.member .member-slide-shift .drop a {
     float: left;
     width: 10px;
     height: 10px;
@@ -611,12 +683,12 @@ i {
     opacity: .2;
 }
 
-.member .member-slide-shift .drop .drop-pitch{
+.member .member-slide-shift .drop .drop-pitch {
     background: #FFF;
     opacity: 1;
 }
 
-.member .member-goods{
+.member .member-goods {
     width: 610px;
     margin-left: -1px;
     height: 282px;
@@ -624,7 +696,7 @@ i {
 
 
 
-.member .member-goods .member-goods-box{
+.member .member-goods .member-goods-box {
     float: left;
     width: 243px;
     padding: 23px 30px;
@@ -635,97 +707,101 @@ i {
     transition: all .2s linear;
 }
 
-.member .member-goods .member-goods-box .Product-drawing{
+.member .member-goods .member-goods-box .Product-drawing {
     float: right;
     transition: all .2s linear;
 }
-.member-goods-box .Product-drawing img{
+
+.member-goods-box .Product-drawing img {
     width: 90px;
     height: 90px;
-}   
+}
 
 
-.member-goods-box .written{
+.member-goods-box .written {
     margin-top: 10px;
     margin-left: 17px;
     line-height: 20px;
     transition: all .2s linear;
 }
 
-.member-goods-box .written .mc{
+.member-goods-box .written .mc {
     font-size: 16px;
     line-height: 2;
     font-weight: 400;
 }
 
-.member-goods-box .written .jg{
+.member-goods-box .written .jg {
     font-size: 13px;
     color: #fc6721;
 }
 
 /* 360智库和安全小百科 */
-.wiki-block{
+.wiki-block {
     display: block;
     float: left;
     width: 1240px;
-   margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 /*  360智库 */
-.wiki-block .Think-tank{
+.wiki-block .Think-tank {
     float: left;
     width: 636px;
     height: 160px;
     height: 160px;
 }
 
-.Think-tank .Think-tank-box{
+.Think-tank .Think-tank-box {
     height: 125px;
     padding: 0 17px;
 }
 
-.Think-tank:last-child{
-  width: 604px;
+.Think-tank:last-child {
+    width: 604px;
 }
-.Think-tank .fonts{
+
+.Think-tank .fonts {
     height: 25px;
     line-height: 25px;
     font-size: 13px;
 }
-a{
-color: #333333;
+
+a {
+    color: #333333;
 }
 
 /* 广告栏 */
-.advert{
+.advert {
     width: 1253px;
     height: 600px;
     margin-left: -13px;
     margin-bottom: 50px;
 }
-.advert .news{
+
+.advert .news {
     float: left;
     width: 300px;
     height: 420px;
     margin-left: 13px;
 }
 
-.advert .news-box{
+.advert .news-box {
     width: 298px;
     height: 378px;
     border: 1px solid #e5e5e5;
 }
 
-.news-box .character{
+.news-box .character {
     margin-bottom: 10px;
 }
 
-.news-box .trends .character-pic{
+.news-box .trends .character-pic {
     width: 298px;
     height: 170px;
 }
 
-.news-box .character .character-pic img{
+.news-box .character .character-pic img {
     width: 298px;
     height: 170px;
     vertical-align: middle;
@@ -733,10 +809,11 @@ color: #333333;
     transition: all .3s;
 }
 
-.news-box   img:hover{
+.news-box img:hover {
     transform: scale(1.05);
 }
-.news-box .character-text{
+
+.news-box .character-text {
     position: relative;
     width: 288px;
     height: 32px;
@@ -747,22 +824,22 @@ color: #333333;
     margin-top: -32px;
     overflow: hidden;
     text-overflow: ellipsis;
-    background:url(../images/character-pic-001.png);
+    background: url(../images/character-pic-001.png);
 }
 
-.news-box .character-text a{
+.news-box .character-text a {
     color: #fff;
 }
 
 
-.news-box .news-list{
+.news-box .news-list {
     padding: 0 20px;
     font-size: 13px;
     line-height: 30px;
 }
 
-.news-box .items{
-    padding-left: 7px; 
+.news-box .items {
+    padding-left: 7px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -772,7 +849,7 @@ color: #333333;
 }
 
 
-.news-box  .more{
+.news-box .more {
     float: right;
     margin: 8px 20px 20px 0;
     color: #999;
@@ -783,19 +860,19 @@ color: #333333;
     
 } */
 
-.bottom-first{
+.bottom-first {
     height: 296px;
     padding: 40px 0 50px;
     background: #f6f6f6;
 }
 
-.bottom-first .bottom-box{
+.bottom-first .bottom-box {
     float: left;
     margin-left: -20px;
-    
+
 }
 
-.bottom-first  .bottom-box .nav{
+.bottom-first .bottom-box .nav {
     float: left;
     width: 170px;
     padding-top: 10px;
@@ -803,36 +880,37 @@ color: #333333;
     border-left: 1px solid #e5e5e5;
     line-height: 2;
 }
-.bottom-first  .bottom-box .nav:first-child{
+
+.bottom-first .bottom-box .nav:first-child {
     border-left: none;
 }
 
-.bottom-first  .bottom-box .cate{
+.bottom-first .bottom-box .cate {
     margin-bottom: 10px;
     line-height: 22px;
     font-size: 18px;
     line-height: 1;
 }
 
-.bottom-first  .bottom-box dd{
+.bottom-first .bottom-box dd {
     font-size: 14px;
 }
 
-.Sweep{
+.Sweep {
     position: relative;
     float: right;
     width: 270px;
     padding-top: 10px;
 }
 
-.Sweep .Sweep-wz{
+.Sweep .Sweep-wz {
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 1;
     font-weight: bold;
 }
 
-.Sweep .twitter{
+.Sweep .twitter {
     position: absolute;
     top: 10px;
     right: 0;
@@ -845,39 +923,39 @@ color: #333333;
     background-position: -150px -484px;
 }
 
-.Sweep .two-dimension{
+.Sweep .two-dimension {
     margin-left: -30px;
 }
 
-.Sweep .two-dimension .wx{
+.Sweep .two-dimension .wx {
     float: left;
     width: 120px;
     margin-left: 30px;
 }
 
-.Sweep .two-dimension .pc{
+.Sweep .two-dimension .pc {
     width: 120px;
     height: 120px;
 }
-.Sweep .two-dimension .text{
+
+.Sweep .two-dimension .text {
     text-align: center;
     line-height: 30px;
     color: #999;
 }
 
-#bottom-dier{
+#bottom-dier {
     padding: 40px 0;
     color: #999999;
     text-align: center;
     line-height: 2;
 }
 
-#bottom-dier .stys{
+#bottom-dier .stys {
     color: #999;
 }
 
 
-#bottom-dier .stys img{
+#bottom-dier .stys img {
     vertical-align: middle;
 }
-
