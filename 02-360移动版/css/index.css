@@ -23,6 +23,17 @@
     }
 }
 
+@media screen and (width: 360px) {
+    html {
+        font-size: calc(360px / 20);
+    }
+}
+@media screen and (width: 768px) {
+    html {
+        font-size: calc(768px / 20);
+    }
+}
+
 body {
     width: 100%;
     height: calc(2540rem / 20);
@@ -56,7 +67,7 @@ a {
     float: left;
     height: calc(32rem / 20);
     display: block;
-    margin-top: calc(6rem / 20);
+    margin-top:calc(10rem / 20);
     margin-left: 3%;
 }
 
@@ -64,13 +75,13 @@ a {
     float: right;
     display: block;
     height: calc(16rem / 20);
-    margin-top: calc(14rem / 20);
+    margin-top:calc(16rem / 20);
     margin-right: 1%;
 }
 
 .batten span img {
     height: 50%;
-    width: 80%;
+    width: 50%;
 }
 
 /* 轮播图导航 */
@@ -396,17 +407,19 @@ a {
 /* 登录栏 */
 .foot{
     width: 80%;
+    overflow: hidden;
     margin: calc(40rem / 20) auto 0;
 }
 
 .foot ul li{
     float: left;
-    width: 23%;
+    width: 24%;
     text-align: center;
-    padding-left: calc(6rem / 20);
+    /* padding-left: calc(6rem / 20); */
     font-size:calc(18rem / 20);
-    border-right:calc(1rem / 20)solid #666666;
+    border-right:calc(1rem / 20) solid #666666;
     color: #666666;
+    box-sizing: border-box;
 }
 .foot ul li:last-child{
     border: none;
