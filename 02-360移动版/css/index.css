@@ -28,15 +28,20 @@
         font-size: calc(360px / 20);
     }
 }
+
 @media screen and (width: 768px) {
     html {
         font-size: calc(768px / 20);
     }
 }
+@media screen and (width: 818px) {
+    html {
+        font-size: calc(818px / 20);
+    }
+}
 
 body {
     width: 100%;
-    height: calc(2540rem / 20);
     margin: 0 auto;
     line-height: 1.5;
     background: #fff;
@@ -86,17 +91,19 @@ a {
 
 /* 轮播图导航 */
 .nav {
+    display: block;
     position: relative;
     width: 100%;
-    height: calc(220rem / 20);
+    text-align: center;
+    /* height: calc(110rem / 20); */
 }
 
 .nav img {
     width: 100%;
+    height: 100%;
 }
 
 .drop {
-    position: absolute;
     position: absolute;
     width: calc(70rem / 20);
     bottom: 0;
@@ -118,9 +125,10 @@ a {
 /* 产品 */
 .product {
     width: 100%;
-    height: calc(110rem / 20);
+    height: 100%;
     margin-top: calc(16rem / 20);
     margin-bottom: calc(15rem / 20);
+    overflow: hidden;
 }
 
 .product li {
@@ -381,7 +389,7 @@ a {
     height: calc(40rem / 20);
     margin: calc(20rem / 20) auto 0;
     border: calc(1rem / 20) solid #00be3c;
-    background: url(../img/search.png) no-repeat 70%;
+    background: url(../image/search.png) no-repeat 70%;
 }
 
 .search input {

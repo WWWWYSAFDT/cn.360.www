@@ -45,7 +45,7 @@ body{
     width: 10px;
     height: 6px;
     vertical-align: middle;
-    background: url(../images/suffix01.png) no-repeat -50px -290px;
+    background: url(../image/suffix01.png) no-repeat -50px -290px;
 }
 
 #headpiece-right {
@@ -112,7 +112,7 @@ body{
     width: 265px;
     height: 60px;
     margin: 0 auto;
-    background-image: url(../images/skin-logo.svg);
+    background-image: url(../image/skin-logo.svg);
 }
 
 .main .Search {

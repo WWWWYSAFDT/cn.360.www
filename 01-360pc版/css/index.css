@@ -228,7 +228,7 @@ i {
     width: 408px;
     box-sizing: border-box;
     background-color: #fff;
-    background: url(../images/container.png) no-repeat right 22px;
+    background: url(../image/container.png) no-repeat right 22px;
 }
 
 
@@ -239,7 +239,7 @@ i {
     left: 0;
     bottom: 0px;
     text-decoration: none;
-    background: url(../images/container01.png) 50% 100% no-repeat;
+    background: url(../image/container01.png) 50% 100% no-repeat;
 }
 
 .kavass .safe-icon {
@@ -306,7 +306,7 @@ i {
     height: 27px;
     line-height: 27px;
     padding-left: 10px;
-    background: url(../images/trends-top.png) no-repeat left 4px;
+    background: url(../image/trends-top.png) no-repeat left 4px;
 }
 
 .trends-top .title a {
@@ -593,7 +593,7 @@ i {
     height: 27px;
     margin-right: 10px;
     vertical-align: middle;
-    background: url(../images/designation-title01.png) no-repeat;
+    background: url(../image/designation-title01.png) no-repeat;
 }
 
 #designation-two {
@@ -824,7 +824,7 @@ a {
     margin-top: -32px;
     overflow: hidden;
     text-overflow: ellipsis;
-    background: url(../images/character-pic-001.png);
+    background: url(../image/character-pic-001.png);
 }
 
 .news-box .character-text a {
@@ -845,7 +845,7 @@ a {
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: 0 -317px;
-    background-image: url(../images/items01.png);
+    background-image: url(../image/items01.png);
 }
 
 
@@ -918,7 +918,7 @@ a {
     line-height: 18px;
     font-size: 14px;
     color: #666;
-    background-image: url(../images/twitter01.png);
+    background-image: url(../image/twitter01.png);
     background-repeat: no-repeat;
     background-position: -150px -484px;
 }

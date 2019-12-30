@@ -8,7 +8,7 @@
 .index-banner {
     width: 100%;
     height: 560px;
-    background: url(../images/finance-banner1.jpg) center no-repeat;
+    background: url(../image/finance-banner1.jpg) center no-repeat;
 }
 
 .swiper-container {
@@ -33,15 +33,15 @@
 
 
 .swiper-slide .banner3 {
-    background: url(../images/finance-banner1.jpg);
+    background: url(../image/finance-banner1.jpg);
 }
 
 .swiper-slide .banner3 {
-    background: url(../images/finance-banner2.jpg);
+    background: url(../image/finance-banner2.jpg);
 }
 
 .swiper-slide .banner3 {
-    background: url(../images/finance-banner3.jpg);
+    background: url(../image/finance-banner3.jpg);
 }
 
 .swiper-pagination {
@@ -328,22 +328,22 @@
 }
 
 .con-box .con-list ul .social.social1 {
-    background: url(../images/finance-social1.jpg) center no-repeat;
+    background: url(../image/finance-social1.jpg) center no-repeat;
     background-size: cover;
 }
 
 .con-box .con-list ul .social.social2 {
-    background: url(../images/finance-social2.jpg) center no-repeat;
+    background: url(../image/finance-social2.jpg) center no-repeat;
     background-size: cover;
 }
 
 .con-box .con-list ul .social.social3 {
-    background: url(../images/finance-social3.jpg) center no-repeat;
+    background: url(../image/finance-social3.jpg) center no-repeat;
     background-size: cover;
 }
 
 .con-box .con-list ul .social.social4 {
-    background: url(../images/finance-social4.jpg) center no-repeat;
+    background: url(../image/finance-social4.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -470,7 +470,7 @@
     height: 48px;
     cursor: pointer;
     margin: -24px 0 0 -35px;
-    background: url(../images/finance-play_icon.png) no-repeat top center;
+    background: url(../image/finance-play_icon.png) no-repeat top center;
     background-size: contain;
 }
 
@@ -765,7 +765,7 @@
 
 /* 合作伙伴 */
 .line-bg {
-    background: url(../images/line_bg.png) center repeat-x #F8F8F9;
+    background: url(../image/line_bg.png) center repeat-x #F8F8F9;
     background-size: 100% 100%;
 }
 
@@ -826,7 +826,7 @@
 .foot-box{
     width: 100%;
     background: #272d3b;
-    background: url(../images/finance-bottom_bg.jpg) center no-repeat;
+    background: url(../image/finance-bottom_bg.jpg) center no-repeat;
     padding: 24px 0 20px;
     /* min-width: 1160px; */
     margin: 0 auto;
