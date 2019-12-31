@@ -146,7 +146,7 @@ margin-top: calc(20rem / 20);
     padding: calc(15rem / 20) 0;
     border-top: 1px solid #ebebeb;
     border-right: 1px solid #ebebeb;
-    /* box-sizing: border-box; */
+
 }
 
 .ware li:nth-child(3n) {
