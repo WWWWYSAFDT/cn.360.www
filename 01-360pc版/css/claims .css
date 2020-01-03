@@ -1,0 +1,230 @@
+/* 版心 */
+.mind {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* 顶部 */
+.coping {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+}
+
+.coping li {
+    height: 21px;
+    float: left;
+    padding-top: 9px;
+
+}
+
+.coping ul li a {
+    display: block;
+    color: #ccc;
+    padding: 0 18px;
+    border-left: 1px solid #666;
+}
+
+.coping .qx {
+    border-left: none;
+}
+
+.coping-lfet {
+    float: left;
+}
+
+.coping-rigth {
+    float: right;
+}
+
+.coping .coping-lfet li:first-child {
+    background-color: #40b60f;
+}
+
+/* 搜索栏 */
+.search-box {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.search-box .logos {
+    float: left;
+    width: 206px;
+    height: 48px;
+    margin: 17px 0 0 10px;
+    background-image: url(../image/a824d411_logo-sp.png);
+    background-repeat: no-repeat;
+}
+
+.search-box .attention {
+    float: left;
+    width: 212px;
+    height: 21px;
+    margin: 28px 0 0 32px;
+    background-image: url(../image/a824d411_logo-sp.png);
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+}
+
+.search-right {
+    float: right;
+    margin-top: 25px;
+}
+
+
+.search-box input {
+    float: left;
+    width: 340px;
+    height: 28px;
+    padding: 0 8px;
+    border: 2px solid #40b60f;
+}
+
+.search-box .graph {
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding-top: 30px;
+    border: 1px solid #3eaf0e;
+    box-sizing: border-box;
+    background-color: #40b60f;
+    background-image: url(../image/a824d411_icon-sp.png) no-repeat -200px -210px;
+}
+
+/* 中心栏 */
+
+.kernel {
+    width: 100%;
+    height: 350px;
+    background: url(../image/a824d411_banner-bg.png);
+    background-position-y: top;
+}
+
+.user-map {
+    height: 980px;
+    width: 100%;
+    background: url(../image/a824d411_banner-index-bg.png);
+    background-repeat: no-repeat;
+}
+
+.kernel-box {
+    float: right;
+    width: 225px;
+    height: 240px;
+    margin: 35px 10px 0 0;
+    padding: 45px 35px 0 35px;
+    color: #434343;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.kernel-box i{
+    display: inline-block;
+    width: 220px;
+    height: 0px;
+    margin-top: 35px;
+    padding-top: 70px;
+    background: url(../image/06f79a5d_banner-sp.1.png);
+    background-repeat: no-repeat;
+    background-position: -280px -560px;
+}
+
+.kernel-box p{
+    /* margin-top: 24px; */
+}
+
+.kernel-box p a{
+    display: inline-block;
+    min-width: 90px;
+    padding: 9px 30px 8px 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    padding-left: 39px;
+    padding-right: 39px;
+    border-radius: 2px;
+    background-image: linear-gradient(#f7a017,#ff8c00);
+    background-color: #fb960c;
+    border: 1px solid #fb960c;
+}
+
+/* 办理栏  */
+.transact{
+    width: 100%;
+    height: 325px;
+    background-color: #eee;
+}
+
+.transact-box{
+    padding: 50px 0;
+}
+
+.transact-box li{
+    float: left;
+    width: 242px;
+    height: 225px;
+    border-left: 1px solid #dcdcdc;
+}
+.transact-box li:first-child{
+    border: none;
+}
+
+.transact-box li i{
+    display: block;
+    width: 100px;
+    height: 95px;
+    margin: 0 auto;
+    background: url(../image/a824d411_icon-sp.png);
+    background-position: 0 -405px;
+    background-repeat: no-repeat;
+}
+
+.transact-box li .st-i{
+    background-position: -100px -405px;
+}
+
+.transact-box li .st-ii{
+    background-position: 0  -500px;
+}
+
+.transact-box li .st-iv{
+    background-position: -100px -500px;
+}
+
+.transact-box li  h3{
+    text-align: center;
+    margin: 24px auto 13px auto;
+    font-size: 24px;
+    color: #4bba1d;
+    font-weight: 400;
+}
+
+.transact-box li p{
+    width: 185px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2em;
+    color: #999;
+}
+
+.transact-box li p a{
+    color: #999;
+}
+
+/* 底部 */
+#bottom-dier {
+    width: 100%;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+    color: #999999;
+    line-height: 2;
+    background: url(../image/safe-ft-bg.png) top center no-repeat;
+}
+
+#bottom-dier .stys {
+    color: #999;
+}
